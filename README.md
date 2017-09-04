@@ -41,6 +41,6 @@ However the manuel list of smaller size only had accuracy around 75%, to improve
 
 At the end, I look into the learned model provided by ALL Unigram Training set, and take the top 30 highest absolute value score from the model, indicating the most effective indicator of spam detection. Used catalog file to find the corresponding words, and added them into the short list. 
 
-Rerun liblinear on the new list of about 50 spam key words, the average accuracy reached 98%  :smile:
+Rerun liblinear on the new list of about 50 spam key words, the average accuracy reached 96% overall and 98% for top 50 spam files :smile:
 
 
